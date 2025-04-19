@@ -1,6 +1,9 @@
 fetch("https://dev.hey.bild.de/api/search?query=a", {
   method: "GET",
-  credentials: "include"
+  credentials: "include",
+  headers: {
+    "Content-Type": "application/json"
+  },
 })
 .then(async (response) => {
   const text = await response.text();
