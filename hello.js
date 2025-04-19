@@ -1,4 +1,4 @@
-fetch("https://dev.hey.bild.de/api/search?query=a", {
+fetch("https://dev.hey.bild.de/api/conversation", {
   method: "GET",
   credentials: "include",
   headers: {
