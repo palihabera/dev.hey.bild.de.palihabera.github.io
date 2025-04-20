@@ -1,4 +1,4 @@
-fetch("https://dev.hey.bild.de/api/conversation", {
+fetch("https://dev.hey.bild.de/api/search?query=a", {
  
   method: "GET",
  
