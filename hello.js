@@ -3,13 +3,8 @@ document.getElementById("fetchButton").addEventListener("click", () => {
     method: "GET",
     credentials: "include",
     headers: {
-      "Accept": "*/*",
-      "Accept-Language": "cs,sk;q=0.8,en-US;q=0.5,en;q=0.3",
-      "Content-Type": "application/json",
       "Cache-Control": "no-cache",
-      "Pragma": "no-cache",
-      // "Referer" and "Origin" are usually set by browser automatically and may not be allowed to override
-      // "Sec-Fetch-Dest", "Sec-Fetch-Mode", "Sec-Fetch-Site" might be blocked or set by the browser
+      "Pragma": "no-cache"
     },
   })
   .then(async (response) => {
