@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CORS PoC</title>
+  <title>Fetch Test</title>
+  <style>
+    #output {
+      white-space: pre-wrap;
+      margin-top: 1em;
+      padding: 1em;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
-  <h1>CORS PoC</h1>
-  <p id="output">Loading...</p>
-  
-  <script src="hello.js"></script>
+
+  <button id="fetchButton">Send Request</button>
+  <div id="output">Click the button to send a request.</div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
