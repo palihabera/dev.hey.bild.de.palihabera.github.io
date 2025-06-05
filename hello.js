@@ -1,5 +1,5 @@
 document.getElementById("fetchButton").addEventListener("click", () => {
-  fetch("dev.hey.bild.de/api/home", {
+  fetch("https://dev.hey.bild.de/api/home", {
     method: "GET",
     credentials: "include",
   })
