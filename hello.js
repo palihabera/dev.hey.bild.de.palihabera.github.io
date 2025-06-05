@@ -3,7 +3,7 @@ document.getElementById("fetchButton").addEventListener("click", () => {
     method: "DELETE",
     credentials: "include",
     headers: {
-    'accept': 'application/json'
+    'accept': 'application/json'}
   })
   .then(async (response) => {
     const text = await response.text();
