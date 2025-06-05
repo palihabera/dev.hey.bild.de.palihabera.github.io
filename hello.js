@@ -1,7 +1,9 @@
 document.getElementById("fetchButton").addEventListener("click", () => {
-  fetch("https://dev.hey.bild.de/api/admin-info/current-user-id", {
-    method: "GET",
+  fetch("https://dev.hey.bild.de/api/user-context/fields", {
+    method: "DELETE",
     credentials: "include",
+    headers: {
+    'accept': 'application/json'
   })
   .then(async (response) => {
     const text = await response.text();
