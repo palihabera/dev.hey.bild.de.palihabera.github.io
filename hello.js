@@ -1,5 +1,5 @@
 document.getElementById("fetchButton").addEventListener("click", () => {
-  fetch("https://whoami-api.prod.ps.bild.de/api/refresh?returnTo=https://whoami-api.prod.ps.bild.de/api/refresh", {
+  fetch("dev.hey.bild.de/api/home", {
     method: "GET",
     credentials: "include",
   })
